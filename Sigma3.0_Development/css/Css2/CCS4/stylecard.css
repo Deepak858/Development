@@ -1,0 +1,16 @@
+.card{
+    height: 200px;
+    weight: 200px;
+    border: 2px solid black;
+    display: inline block;
+    margin: 10px;
+    border-radius: 5px;
+ 
+}
+.disc{
+    padding: 2px;
+}
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}

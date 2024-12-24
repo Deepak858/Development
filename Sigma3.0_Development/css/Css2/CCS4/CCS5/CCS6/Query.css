@@ -1,0 +1,57 @@
+h1{
+    background-color: blue;
+    border: 2px dotted black;
+    text-align: center ;
+
+}
+#demo{
+    background-color: aqua;
+}
+@media(max-width:400px){
+    h1{
+        height: 150px;
+        width: 150px;
+        color: white;
+        background-color: black;
+
+    }
+    #demo{
+        height: 100px;
+        width: 100px;
+
+        background-color: green;
+    }
+}
+@media (width:400px) {
+    h1{background-color: aquamarine;
+        color: white;
+    }
+    #demo{
+        background-color: greenyellow;
+        height: 50px;
+        width: 200px;
+        color: white;
+    }
+    
+}
+@media(min-width:400px){
+    h1{ font-size: 5px;
+    font-weight: 300;}
+    #demo{
+        color: pink;
+    }
+}
+@media (min-width:500px) and (max-width:700px) {
+    h1{color: pink;
+    background-color: magenta;}
+    #demo{
+        background-color: violet;
+    }
+    
+}
+@media (orientation:landscape) {
+    body{
+        background-color: aquamarine;
+    }
+    
+}

@@ -1,0 +1,75 @@
+h1{
+    color: #1674e4;
+}
+.user,.user1{
+    background-color: aqua;
+    color: white;
+    
+}
+#searchr{
+    background-color: black;
+    color: white;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p+h3{
+    text-decoration: underline;
+}
+upvode+answer{
+    color: pink;
+}
+nav ul li{
+    color: rgb(69, 64, 64);
+}
+span>button{color: aqua;
+
+}
+span>h1>h3{
+    color:green;
+}
+nav a{
+    color: bisque;
+}
+input[ type="text" ]{
+    color: yellow;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: #1674e4;
+    color: red;
+}
+div[id="myid"]{
+    color: hotpink;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    color: rgb(64, 0, 91);
+    text-decoration: none;
+}button:active{
+    background-color: yellowgreen;
+}
+input[type="radio"]:checked+label{
+    color: rgb(250, 158, 46);
+    font-weight: 700;
+}
+div:nth-of-type(2n){
+    background-color: black;
+    color: green;
+}
+p::selection{
+    background-color: red;
+    color: green;
+}
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: gold;
+}
+

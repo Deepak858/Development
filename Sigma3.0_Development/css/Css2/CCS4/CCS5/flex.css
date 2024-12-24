@@ -1,0 +1,38 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: aqua;
+    margin :10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    /* flex-wrap: wrap; */
+    align-content: space-evenly;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    /* font-size: 1.5em; */
+
+}
+
+#org{
+    align-self: center;
+    /* flex-basis: 200px;*/
+    flex: 2 3 150px;
+  
+}
+#bl{
+
+align-self: flex-end;
+/* flex-basis:220px ; */
+/* flex-grow: 3; */
+flex: 3 2 200px;
+
+}

@@ -1,0 +1,36 @@
+.animate{
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+    text-align: center;
+    animation-name: peruse;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes Deepak {
+    from{font-size: 20px;
+   background-color: green;
+}
+    to{font-size: 30px;
+   background-color: aqua;
+   border-radius: 50%;
+ 
+}
+    
+}
+@keyframes peruse {
+    0%{background-color: black;
+    color: pink;}
+    40%{background-color: blue;
+    color: pink;}
+    60%{
+      background-color: aqua;
+      color:pink;
+    }
+    100%{background-color: green;
+    color:pink;}
+    
+}
