@@ -1,2 +1,2 @@
 # @Development
-So is used to basic concept of css and html.
+So is used to basic concept of CSS and HTML.
